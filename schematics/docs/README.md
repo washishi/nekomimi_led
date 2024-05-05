@@ -8,9 +8,9 @@
 |品名|部品番号|型番等|数量|入手先(参考)|備考|
 |:--|:--|:--|--:|:--|:--|
 |基板|-|Nekomimi_LED 基板|1|JLCPCBへ発注|基板の発注について参照|
-|コンデンサ|C1～C18|チップ1005サイズ 0.1uF|18|秋月電子 ([113377](https://akizukidenshi.com/catalog/g/g113377/){:target="_blank"})<br>　※1パック25個||
-|LED|LED1～LED18|マイコン内蔵RGBLED<br>WS2812C-2020 または互換品|18|秋月電子 ([115068](https://akizukidenshi.com/catalog/g/g115068/){:target="_blank"})<br>　※1パック 10個||
-|ピンソケット|J1|2mmピッチ 4ピン|1|秋月電子 ([103870](https://akizukidenshi.com/catalog/g/g103870/){:target="_blank"})<br>　※5ピン目のところで切って利用||
+|コンデンサ|C1～C18|チップ1005サイズ 0.1uF|18|秋月電子 ([113377](https://akizukidenshi.com/catalog/g/g113377/))<br>　※1パック25個||
+|LED|LED1～LED18|マイコン内蔵RGBLED<br>WS2812C-2020 または互換品|18|秋月電子 ([115068](https://akizukidenshi.com/catalog/g/g115068/))<br>　※1パック 10個||
+|ピンソケット|J1|2mmピッチ 4ピン|1|秋月電子 ([103870](https://akizukidenshi.com/catalog/g/g103870/))<br>　※5ピン目のところで切って利用||
 <br>
 
 # 基板実装図  
@@ -76,7 +76,7 @@
 
 ## 制作方法
  - ピンソケットが4ピンの物でない場合はニッパーで5ピン目のところで切断してやすりで整えて4ピンのピンソケットを作ります
- - 基板を[JLCPCB](https://jlcpcb.jp/){:target="_blank"}等の製造業者に発注します
+ - 基板を[JLCPCB](https://jlcpcb.jp/)等の製造業者に発注します
  - チップコンデンサ、LED の未実装のチップ部品を実装します
  - ピンソケットをはんだ付けします
 
