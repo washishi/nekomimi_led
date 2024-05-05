@@ -13,7 +13,8 @@ NeoPixel(WS2812)互換のRGB LEDが左右に9個ずつ合計18個付いており
 主に下記に直接取り付けることができます  
 - <a href="https://docs.m5stack.com/ja/base/m5go_bottom" target="_blank" rel="noopener noreferrer">M5GO BOTTOM</a> BASIC用 (M5GO,FIREは標準添付)   
 - <a href="https://docs.m5stack.com/ja/base/m5go_bottom2" target="_blank" rel="noopener noreferrer">M5GO BOTTOM2</a> CORE2用 (CORE2 for AWS は標準添付)
-- <a href="https://docs.m5stack.com/ja/module/M5GO3%20Bottom" target="_blank" rel="noopener noreferrer">M5GO3 BOTTOM</a> CoreS3用 (DINベースにそのままつけた場合はコネクタ位置が異なるため左寄りになります)  
+- <a href="https://docs.m5stack.com/ja/module/M5GO3%20Bottom" target="_blank" rel="noopener noreferrer">M5GO3 BOTTOM</a> CoreS3用 (DINベースにそのままつけた場合はコネクタ位置が異なるため左寄りになります)
+  
 取り付け例  
 <img src="docs/images/useage.jpg" width="600px">
 
