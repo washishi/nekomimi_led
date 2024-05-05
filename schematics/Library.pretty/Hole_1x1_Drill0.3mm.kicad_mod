@@ -1,0 +1,24 @@
+(footprint "Hole_1x1_Drill0.3mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm")
+  (tags "test point wire loop bead")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0.7 2.5) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c44bb1d9-6218-4439-8dec-b74c3e33daa1)
+  )
+  (fp_text value "hole_Drill0.5mm" (at 0 -2.8) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 167c2ae8-5bb1-4c63-a8fc-2234e58254fd)
+  )
+  (fp_text user "${REFERENCE}" (at 0.7 2.5) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 86e15a54-c395-4b0d-9818-6426fa8c14a4)
+  )
+  (pad "" thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp e7a39a80-9a89-4351-b4c4-e65f485a98f4))
+  (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

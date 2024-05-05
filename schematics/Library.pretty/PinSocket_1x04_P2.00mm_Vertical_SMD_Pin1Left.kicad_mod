@@ -1,0 +1,23 @@
+(footprint "PinSocket_1x04_P2.00mm_Vertical_SMD_Pin1Left" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "surface-mounted straight socket strip, 1x04, 2.00mm pitch, single row, style 1 (pin 1 left) (https://www.jayconsystems.com/fileuploader/download/download/?d=1&file=custom%2Fupload%2FFile-1375728122.pdf), script generated")
+  (tags "Surface mounted socket strip SMD 1x04 2.00mm single row style1 pin1 left")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -5.8) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 88dcfb65-c153-4021-9648-7edccd3b3ae7)
+  )
+  (fp_text value "PinSocket_1x04_P2.00mm_Vertical_SMD_Pin1Left" (at 0 5.8) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 251ac3b5-ac1f-4d1c-9b74-2a396f854413)
+  )
+  (pad "1" smd rect (at 0 -2.55) (size 2 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3425452b-0538-493c-9ed4-1875f8d42fc8))
+  (pad "2" smd rect (at 0 -1) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 02060cd5-36ab-4c38-8414-e5abbf38a9e7))
+  (pad "3" smd rect (at 0 1) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e1dfb11c-e11d-4da8-8321-82f97d224c5e))
+  (pad "4" smd rect (at 0 2.55) (size 2 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 411cdef2-1d25-4225-a641-9e17e05611bc))
+  (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x04_P2.00mm_Vertical_SMD_Pin1Left.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

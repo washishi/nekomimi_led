@@ -1,0 +1,20 @@
+(footprint "Hole_1x2_P1.00mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Through hole straight pin header, 1x11, 1.00mm pitch, single row")
+  (tags "Through hole pin header THT 1x11 1.00mm single row")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -1.56) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp cb6f54b4-04b6-4e77-8137-f132aecedbf1)
+  )
+  (fp_text value "Hole_1x3 P1.00mm" (at 0 5.08) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 200a9987-e9ba-4eac-91d4-b1e0e8fed1f1)
+  )
+  (fp_text user "${REFERENCE}" (at 0 5 270) (layer "F.Fab") hide
+      (effects (font (size 0.76 0.76) (thickness 0.114)))
+    (tstamp c371520c-b8a9-4f32-968b-d76a698423db)
+  )
+  (pad "" thru_hole circle (at 0 0) (size 0.7 0.7) (drill 0.5) (layers "*.Cu" "*.Mask") (tstamp 4ec642cf-84ae-4de6-bf52-8b997e260322))
+  (pad "" thru_hole circle (at 0 1) (size 0.7 0.7) (drill 0.5) (layers "*.Cu" "*.Mask") (tstamp bbec17d4-9482-4afd-b98c-7568c0b5af7f))
+)
