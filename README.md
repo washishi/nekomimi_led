@@ -4,7 +4,7 @@ NeoPixel(WS2812)互換のRGB LEDが左右に9個ずつ合計18個付いており
 <img src="docs/images/NekomimiLED.png" width="600ps">
 
 # 回路図、作り方
-  回路図、作り方等の詳細については[こちら](schematics/docs/readme.md)へ  
+  回路図、作り方等の詳細については[こちら](schematics/docs/README.md)へ  
   オプション外装の利用方法については[こちら](case/README.md)へ
   <br>
 
