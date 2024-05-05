@@ -19,7 +19,7 @@ NeoPixel(WS2812)互換のRGB LEDが左右に9個ずつ合計18個付いており
 <img src="docs/images/useage.jpg" width="600px">
 
 なおM5Stick系やM5Atom系、M5DialやM5NanoC6などもGROVEポートがあれば基本的に利用可能です  
-物理的に干渉する場合はGROVEケーブルとGROVEコネクタを使えば[延長して取り付ける](docs/images/cable_connect.png){:target="_blank"}こともできます   
+物理的に干渉する場合はGROVEケーブルとGROVEコネクタを使えば[延長して取り付ける](docs/images/cable_connect.png)こともできます   
 <br>  
 
 また[オプション外装](case)を利用してはんだ付けを含む工作を行う場合は下記に取り付け可能となります
