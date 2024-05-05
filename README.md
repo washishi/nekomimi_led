@@ -11,9 +11,9 @@ NeoPixel(WS2812)互換のRGB LEDが左右に9個ずつ合計18個付いており
 
 # 使い方
 主に下記に直接取り付けることができます  
-- <a href="https://docs.m5stack.com/ja/base/m5go_bottom" target="_blank">M5GO BOTTOM</a> BASIC用 (M5GO,FIREは標準添付)   
-- <a href="https://docs.m5stack.com/ja/base/m5go_bottom2" target="_blank">M5GO BOTTOM2</a> CORE2用 (CORE2 for AWS は標準添付)
-- <a href="https://docs.m5stack.com/ja/module/M5GO3%20Bottom" target="_blank">M5GO3 BOTTOM</a> CoreS3用 (DINベースにそのままつけた場合はコネクタ位置が異なるため左寄りになります)  
+- <a href="https://docs.m5stack.com/ja/base/m5go_bottom" target="_blank" rel="noopener noreferrer">M5GO BOTTOM</a> BASIC用 (M5GO,FIREは標準添付)   
+- <a href="https://docs.m5stack.com/ja/base/m5go_bottom2" target="_blank" rel="noopener noreferrer">M5GO BOTTOM2</a> CORE2用 (CORE2 for AWS は標準添付)
+- <a href="https://docs.m5stack.com/ja/module/M5GO3%20Bottom" target="_blank" rel="noopener noreferrer">M5GO3 BOTTOM</a> CoreS3用 (DINベースにそのままつけた場合はコネクタ位置が異なるため左寄りになります)  
 取り付け例  
 <img src="docs/images/useage.jpg" width="600px">
 
@@ -23,7 +23,7 @@ NeoPixel(WS2812)互換のRGB LEDが左右に9個ずつ合計18個付いており
 
 また[オプション外装](case)を利用してはんだ付けを含む工作を行う場合は下記に取り付け可能となります
   - 直接取り付けできる前記のGO BOTTOM系全て
-  - [DIN BASE](https://docs.m5stack.com/ja/base/DIN%20BASE){:target="_blank"} (CoreS3に標準添付)  
+  - <a href="https://docs.m5stack.com/ja/base/DIN%20BASE" target="_blank" rel="noopener noreferrer">DIN BASE</a> (CoreS3に標準添付)  
   - ししかわさん版(アールティVer. α版,β版)ｽﾀｯｸﾁｬﾝ (V0.2.1基板にPH-4Pコネクタ実装済の物)  
 
 <br>
@@ -44,11 +44,11 @@ PortBのOUTPUT(O)端子を利用してGPIO番号は下記となります
 
 # ソフトウエアでの利用について
 Arduino IDE や VSCode + PlatformIO で利用する場合は
-[FastLED](https://github.com/FastLED/FastLED){:target="_blank"}や[Adafruit NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel){:target="_blank"}等のライブラリで利用できます  
+[FastLED](https://github.com/FastLED/FastLED)や[Adafruit NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel)等のライブラリで利用できます  
 UIFlowで利用する場合はUnit RGB で LEDの数を 18 として利用できます  
 その他に関しては NeoPixel を操作できるライブラリ等があれば利用できると思います
 
 # サンプルプログラム
-サンプルプログラムとして [m5stack-avatar-mic-nekomimi_led](https://github.com/washishi/m5stack-avatar-mic-nekomimi_led){:target="_blank"} を用意しました  
+サンプルプログラムとして [m5stack-avatar-mic-nekomimi_led](https://github.com/washishi/m5stack-avatar-mic-nekomimi_led) を用意しました  
 音に合わせてAvatarが口パクしたり、傾いたりすると共にNekomimi LEDが音量に応じて光ります
-※Takao Akaki (mongonta0716) さんの [m5stack-avatar-mic](https://github.com/mongonta0716/m5stack-avatar-mic){:target="_blank"} を改変したものです
+※Takao Akaki (mongonta0716) さんの [m5stack-avatar-mic](https://github.com/mongonta0716/m5stack-avatar-mic) を改変したものです
