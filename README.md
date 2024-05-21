@@ -3,6 +3,7 @@ M5StackのGO BOTTOM等に直接取り付けれるオリジナルのネコミミ�
 NeoPixel(WS2812)互換のRGB LEDが左右に9個ずつ合計18個付いており独立して色や明るさ等を制御することができます  
 <img src="docs/images/NekomimiLED.png" width="600ps">
 
+※完成品 や 組立キット、オプション外装等を[Booth](https://washishi.booth.pm/)で頒布もしています
 # 回路図、作り方
   回路図、作り方等の詳細については[こちら](schematics/docs/README.md)へ  
   オプション外装の利用方法については[こちら](case/README.md)へ
